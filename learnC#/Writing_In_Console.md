@@ -22,17 +22,16 @@ static void Main(string[] args)     # Don't worry much here
 2. ```Console.WriteLine()``` is a command that prints text to the console.
     - Whatever is in between the parentheses will be printed.
 
-
-**Storing Data**
-
 | **PROBLEM** | **Description** |
 | :---: | :--- |
 | Multiple name references | Should never have to repeat (DRY CODE) |
 
 
+**Storing Data**
+
 | **SOLUTION** | **Description** |
 | :---: | :--- |
-| variable | Ability to store reusable data (Value) |
+| Variable | Ability to store reusable data (Value) |
 | Data Type | Always *specify* the data of *every value and expression* |
 | String Interpolation | More readability less ignoring + concatenating |
 
