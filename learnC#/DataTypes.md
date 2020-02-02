@@ -19,17 +19,16 @@ Focusing on common Data Types like
 * ```bool```
 
 ```ruby
-string name = "Tech SaVo"; # storing text value to data type string
-int age = 22;               # storing number value to data type int
-char nameStartsWith = 'T';  # storing letter value to data type char
-double productVersion = 1.0;    # storing double number value to data type double
-bool productRelease = true;     # storing true value to data type string
+string name = "Tech SaVo"; # name has value string
+int age = 22;               # age has value int
+char nameStartsWith = 'T';  # nameStartsWith has a value char
+double weight = 1.0;    # weight has a value of number . number (double)
+bool isMale = true;     # isMale has true value of bool
 
-Console.WriteLine(      # print to console using sting Interpolation 
-    $"{name} is {age} years old" +  # name and age variables
-    $"{name} new software version {productVersion}" +   # name and productVersion variables
-    $"it's {productRelease} the is currently released" +    # productRelease variables
-    $"rumor is its shaped like a {nameStartsWith}"      # nameStartsWith variables
-    );
+    Console.WriteLine(      # Write to console
+        $"{name} is {age} years old " + # name and age variables
+        $"{name} weights {weight} " +   # name and age variables
+        $"and it's {isMale} {name}"     # name and age variables
+        );
 ```
-initial rumored  
+weight 
