@@ -25,11 +25,17 @@ static void Main(string[] args)     # Don't worry much here
 
 **Storing Data**
 
-*PROBLEM*
+| **PROBLEM** | **Description** |
+| :---: | :--- |
+| Multiple name references |  |
 
-Decide to enter initial of last name (Cavis A.) rather then just first name (Cavis)
 
-*SOLUTION*
+| **SOLUTION** | **Description** |
+| :---: | :--- |
+| variable | ability to store data and reuse |
+| Data Type for Variable | programmer *specify* the data of *every value and expression* |
+
+*SOLUTION Info*
 
 1. Create variable
     - ability to store data and reuse
