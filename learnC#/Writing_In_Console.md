@@ -33,12 +33,14 @@ static void Main(string[] args)     # Don't worry much here
 | :---: | :--- |
 | Variable | Ability to store reusable data (Value) |
 | Data Type | Always *specify* the data of *every value and expression* |
-| String Interpolation | More readability less ignoring + concatenating |
+| String Interpolation | More readability less ignoring ```+``` *concatenating* |
 
-Create ```name``` variable with type ```string``` equal to ```(Cavis A.)``` to replace repeated name in console.
+Create ```name``` variable with type ```string``` equal to ```(Cavis A.)``` to replace repeated name referencing in console.
+
+Then us ```$"{string interpolation}"``` as a substitute for ```+``` concatenating.
 
 ```ruby
-string myName = "Tech SaVo";   # store my name n as string
+string myName = "Tech SaVo";   # store my name as string
 
 string friendName = "Cavis A."; # storing friend name as string
 
