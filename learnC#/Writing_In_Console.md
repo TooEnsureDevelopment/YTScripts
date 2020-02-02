@@ -37,6 +37,8 @@ static void Main(string[] args)     # Don't worry much here
 
 Create ```name``` variable with type ```string``` equal to ```(Cavis A.)``` to replace repeated name referencing in console.
 
+> Note: Variables can be initialized and declared separately
+
 Then us ```$"{string interpolation}"``` as a substitute for ```+``` concatenating.
 
 ```ruby
@@ -53,3 +55,6 @@ static void Main(string[] args)     # Don't worry much here
         );  # Prints text to console
 }       # End block
 ```
+
+> Clean Work space
+
