@@ -27,26 +27,14 @@ static void Main(string[] args)     # Don't worry much here
 
 | **PROBLEM** | **Description** |
 | :---: | :--- |
-| Multiple name references |  |
+| Multiple name references | Should never have to repeat (DRY CODE) |
 
 
 | **SOLUTION** | **Description** |
 | :---: | :--- |
-| variable | ability to store data and reuse |
-| Data Type for Variable | programmer *specify* the data of *every value and expression* |
-
-*SOLUTION Info*
-
-1. Create variable
-    - ability to store data and reuse
-
-2. Create Variable Data Type
-    - C# is known as a strongly typed language
-        - It allows that the programmer *specify* the data of *every value and expression*
-
-3. Use *String Interpolation* ```$"Text {variable}"```
-    - more code readability
-
+| variable | Ability to store reusable data (Value) |
+| Data Type | Always *specify* the data of *every value and expression* |
+| String Interpolation | More readability less ignoring + concatenating |
 
 Create ```name``` variable with type ```string``` equal to ```(Cavis A.)``` to replace repeated name in console.
 
